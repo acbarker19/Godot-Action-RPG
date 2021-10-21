@@ -301,7 +301,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 55, 55, 56, 57, 58 ]
+"values": [ 55, 56, 57, 58, 59 ]
 }
 tracks/1/type = "method"
 tracks/1/path = NodePath(".")
@@ -331,7 +331,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 50, 50, 51, 52, 53 ]
+"values": [ 50, 51, 52, 53, 54 ]
 }
 tracks/1/type = "method"
 tracks/1/path = NodePath(".")
@@ -361,7 +361,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 40, 40, 41, 42, 43 ]
+"values": [ 40, 41, 42, 43, 44 ]
 }
 tracks/1/type = "method"
 tracks/1/path = NodePath(".")
@@ -610,7 +610,7 @@ script = ExtResource( 1 )
 position = Vector2( 0, -9 )
 texture = ExtResource( 2 )
 hframes = 60
-frame = 18
+frame = 59
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = -1.5708
@@ -645,7 +645,6 @@ parameters/Run/blend_position = Vector2( 0, 0 )
 
 [node name="HitboxPivot" type="Position2D" parent="."]
 position = Vector2( 0, -4 )
-rotation = 1.5708
 
 [node name="SwordHitbox" parent="HitboxPivot" instance=ExtResource( 3 )]
 position = Vector2( 15, 0 )
